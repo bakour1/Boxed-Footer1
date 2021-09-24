@@ -241,7 +241,11 @@ footer {
   background: linear-gradient(90deg, #27282A 40%, #27282a6b 80%);
   box-shadow: 350px 0 0 0 #27282a6b, -250px 0 0 0 #27282A;
 }
-
+@media (max-width: 767px) {
+  footer {
+    padding: 0 20px;
+  }
+}
 footer .container {
   padding-block: 30px;
   display: flex;
